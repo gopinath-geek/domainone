@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 if(isset($_SESSION['x_session'])){
 echo "session is alive";
 }else{
